@@ -109,7 +109,6 @@ footer {
     .hero {
         background-position: center center;
         padding: 4em 2em;
-        display: flex;
     }
     
     .hero h1 {
@@ -119,7 +118,7 @@ footer {
     }
     
     .hero p {
-        flex: 1;
+
     }
     
     .stories {
