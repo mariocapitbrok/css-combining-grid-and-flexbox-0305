@@ -71,7 +71,7 @@ main.wrapper {
 
 .stories figure {
     display: grid;
-    grid-template-rows: 200px 50px;
+    
 }
 
 .stories img {
