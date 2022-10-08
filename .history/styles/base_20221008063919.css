@@ -62,7 +62,7 @@ main.wrapper {
     grid-gap: 2rem
 }
 
-.stories article {
+.article {
     border: 1px solid #e2e2e2;
     border-radius: 10px;
     display: grid;
