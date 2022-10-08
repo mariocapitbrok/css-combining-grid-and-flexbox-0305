@@ -57,9 +57,6 @@ main.wrapper {
 /* STORIES */
 .stories {
     padding: 2rem;
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 2rem
 }
 
 .stories article {
@@ -95,7 +92,10 @@ main.wrapper {
    line-height: 1.5;
    padding: 1rem .75rem;
    color: #666666;
-
+   padding: 2rem;
+   display: grid;
+   grid-template-columns: auto;
+   grid-gap: 2rem
 }
 
 /* FOOTER */
@@ -127,7 +127,7 @@ footer {
     }
     
     .stories {
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(autofit, minmax(320px, 1fr));
     }
 
 }
